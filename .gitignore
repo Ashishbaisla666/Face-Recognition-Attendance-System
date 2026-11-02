@@ -1,0 +1,16 @@
+# macOS and Python artifacts
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Personal biometric and attendance data — never commit
+attendance.csv
+/known_faces/*
+!/known_faces/.gitkeep
+
+# Personal project documents
+*.pages
+*.key
